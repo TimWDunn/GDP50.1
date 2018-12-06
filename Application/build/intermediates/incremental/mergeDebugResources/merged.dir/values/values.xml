@@ -573,10 +573,13 @@
     <string name="abc_toolbar_collapse_description">Collapse</string>
     <string name="app_name">BluetoothLeGatt</string>
     <string name="ble_not_supported">BLE is not supported</string>
-    <string name="button1">bluetooth</string>
+    <string name="button1">BLUETOOTH SETTINGS</string>
+    <string name="button2">IN-RIDE FEEDBACK</string>
+    <string name="button3">POST-RIDE FEEDBACK</string>
     <string name="connected">Connected</string>
     <string name="disconnected">Disconnected</string>
     <string name="error_bluetooth_not_supported">Bluetooth not supported.</string>
+    <string name="initial_speed">0.00 mph</string>
     <string name="intro_message">
         <![CDATA[
         
@@ -587,6 +590,9 @@
         
         ]]>
     </string>
+    <string name="ir_cda">CdA:</string>
+    <string name="ir_power">Power:</string>
+    <string name="ir_speed">Speed:</string>
     <string name="label_data">Data:</string>
     <string name="label_device_address">Device address:</string>
     <string name="label_state">State:</string>
@@ -595,13 +601,18 @@
     <string name="menu_scan">Scan</string>
     <string name="menu_stop">Stop</string>
     <string name="no_data">No data</string>
+    <string name="pr_test">Conor:</string>
     <string name="search_menu_title">Search</string>
     <string name="status_bar_notification_info_overflow">999+</string>
-    <string name="title_activity_second">SecondActivity</string>
+    <string name="title_activity_fourth_">Post Ride</string>
+    <string name="title_activity_second">GDP50</string>
+    <string name="title_activity_third">In Ride</string>
     <string name="title_devices">BLE Device Scan</string>
+    <string name="title_page_third">In Ride Feedback</string>
     <string name="unknown_characteristic">Unknown characteristic</string>
     <string name="unknown_device">Unknown device</string>
     <string name="unknown_service">Unknown service</string>
+    <string name="welcome">Welcome GDP 50</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>

@@ -72,6 +72,10 @@
         "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.0.2.aar\\397d306de5eac303c054dce625f42a6a\\res\\layout\\notification_template_media.xml"
     },
     {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\BLE_Engine\\Application\\build\\intermediates\\res\\merged\\debug\\layout_activity_fourth_.xml.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\BLE_Engine\\Application\\src\\main\\res\\layout\\activity_fourth_.xml"
+    },
+    {
         "merged": "C:\\Users\\User\\AndroidStudioProjects\\BLE_Engine\\Application\\build\\intermediates\\res\\merged\\debug\\anim_abc_slide_in_bottom.xml.flat",
         "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\9fae3073ba6142597b3dac2920ebae90\\res\\anim\\abc_slide_in_bottom.xml"
     },
@@ -698,6 +702,10 @@
     {
         "merged": "C:\\Users\\User\\AndroidStudioProjects\\BLE_Engine\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_menu_hardkey_panel_mtrl_mult.9.png.flat",
         "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\9fae3073ba6142597b3dac2920ebae90\\res\\drawable-xxhdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\BLE_Engine\\Application\\build\\intermediates\\res\\merged\\debug\\layout_activity_third.xml.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\BLE_Engine\\Application\\src\\main\\res\\layout\\activity_third.xml"
     },
     {
         "merged": "C:\\Users\\User\\AndroidStudioProjects\\BLE_Engine\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_text_select_handle_left_mtrl_light.png.flat",

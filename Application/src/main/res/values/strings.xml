@@ -32,7 +32,24 @@
     <string name="menu_disconnect">Disconnect</string>
     <string name="menu_scan">Scan</string>
     <string name="menu_stop">Stop</string>
-    <string name="title_activity_second">SecondActivity</string>
 
-    <string name="button1">bluetooth</string>
+    <!--Titles -->
+    <string name="title_activity_second">GDP50</string>
+    <string name="title_activity_third">In Ride</string>
+    <string name="title_activity_fourth_">Post Ride</string>
+    <string name="title_page_third">In Ride Feedback</string>
+    <string name="welcome">Welcome GDP 50</string>
+
+    <!--Buttons-->
+    <string name="button1">BLUETOOTH SETTINGS</string>
+    <string name="button2">IN-RIDE FEEDBACK</string>
+    <string name="button3">POST-RIDE FEEDBACK</string>
+
+    <!--In Ride-->
+    <string name="initial_speed">0.00 mph</string>
+    <string name="ir_speed">Speed:</string>
+    <string name="ir_cda">CdA:</string>
+    <string name="ir_power">Power:</string>
+    <string name="pr_test">Conor:</string>
+
 </resources>
