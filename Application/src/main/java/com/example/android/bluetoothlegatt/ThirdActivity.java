@@ -1,5 +1,6 @@
 package com.example.android.bluetoothlegatt;
 
+import android.bluetooth.BluetoothGattCharacteristic;
 import android.content.Context;
 import android.location.Location;
 import android.location.LocationListener;
@@ -18,12 +19,12 @@ public class ThirdActivity extends Activity implements LocationListener {
         LocationManager lm = (LocationManager) this.getSystemService(Context.LOCATION_SERVICE);
         lm.requestLocationUpdates(LocationManager.GPS_PROVIDER, 0, 0, this);
         this.onLocationChanged(null);
+
     }
 
     @Override
     public void onLocationChanged(Location location) {
         TextView txt = (TextView) this.findViewById(R.id.textView4);
-
         if( location==null )
         {
             txt.setText("-.- mph");
