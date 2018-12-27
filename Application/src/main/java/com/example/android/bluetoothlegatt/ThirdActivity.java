@@ -1,6 +1,5 @@
 package com.example.android.bluetoothlegatt;
 
-import android.bluetooth.BluetoothGattCharacteristic;
 import android.content.Context;
 import android.location.Location;
 import android.location.LocationListener;
@@ -9,7 +8,12 @@ import android.os.Bundle;
 import android.app.Activity;
 import android.widget.TextView;
 
+import com.AeroBike.BackEnd.Datastore;
+
+
 public class ThirdActivity extends Activity implements LocationListener {
+
+    Datastore myDataStore = new Datastore();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,7 +27,7 @@ public class ThirdActivity extends Activity implements LocationListener {
     }
 
     @Override
-    public void onLocationChanged(Location location) {
+    public void onLocationChanged(Location location){
         TextView txt = (TextView) this.findViewById(R.id.textView4);
         if( location==null )
         {
@@ -31,9 +35,12 @@ public class ThirdActivity extends Activity implements LocationListener {
         }
         else
         {
-            float nCurrentSpeed = (float) (location.getSpeed()*2.2369);
+            float currentSpeedMph = (float) (location.getSpeed()*2.2369);
             //txt.setText(nCurrentSpeed + " m/s");
-            txt.setText( String.format("%.2f mph", nCurrentSpeed));
+            txt.setText( String.format("%.2f mph", currentSpeedMph));
+
+            myDataStore.AddSpeedData(currentSpeedMph);
+            myDataStore.AddLocationData(location);
         }
     }
 

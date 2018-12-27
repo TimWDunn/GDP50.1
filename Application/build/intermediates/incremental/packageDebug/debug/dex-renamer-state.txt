@@ -1,4 +1,4 @@
-#Thu Dec 13 13:50:29 GMT 2018
-base.0=C\:\\Users\\User\\AndroidStudioProjects\\BLE_Engine\\Application\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+#Thu Dec 27 14:39:57 GMT 2018
+base.0=C\:\\Users\\User\\AndroidStudioProjects\\BLE_Engine\\Application\\build\\intermediates\\transforms\\dexMerger\\debug\\19
 path.0=classes.dex
 renamed.0=classes.dex
