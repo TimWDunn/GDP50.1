@@ -307,6 +307,9 @@ public class DeviceControlActivity extends Activity {
         return intentFilter;
     }
 
+
+
+
     public void onClickWrite(View v){
         if(mBluetoothLeService != null) {
             mBluetoothLeService.writeCustomCharacteristic(0xAA);

@@ -96,8 +96,8 @@ public final class R {
         public static final int tag_transition_group = 0x7f070088;
         public static final int text = 0x7f070089;
         public static final int text2 = 0x7f07008a;
-        public static final int time = 0x7f070093;
-        public static final int title = 0x7f070094;
+        public static final int time = 0x7f070094;
+        public static final int title = 0x7f070095;
     }
     public static final class integer {
         public static final int cancel_button_image_alpha = 0x7f080002;
